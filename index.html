@@ -21,7 +21,7 @@
 				</nav>
 			</div>	
 			<div class="banner">
-				<img src="img/p1.jpg"/>
+				<img id="banner" src="img/d2.jpg"/>
 			</div>
 			<div class="foucus">
 				<h2>最新焦点</h2>
@@ -135,6 +135,18 @@
 				</div>
 			</footer>
 		</div>
-		
+		<script type="text/javascript">
+			var images=["img/d1.jpg","img/d3.jpg","img/d2.jpg"];
+			var banner=document.getElementById("banner");
+			var count=0;
+			function change(){
+				banner.src=images[count];
+				count++;
+				if(count==3){
+					count=0;
+				}
+			}
+			setInterval(change,1000)
+		</script>
 	</body>
 </html>
