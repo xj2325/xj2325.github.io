@@ -1,0 +1,133 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+nav{
+	color: white;
+	padding: 10px;
+	height: 50px;
+	overflow: hidden;
+	background: rgb(20,30,40);
+}
+nav img{
+	float: left;
+	height: 100%;
+}
+nav ul{
+	margin-left: 20%;
+	float: left;
+	width: 40%;
+	height: 100%;
+	line-height: 50px;
+	column-count: 5;
+}
+nav span{
+	color: goldenrod;
+	line-height: 50px;
+	float: right;
+	height: 100%;
+}
+nav a{
+	color: white;
+	font-weight: bold;
+}
+.content{
+	margin-top: 20px;
+	overflow: hidden;
+}
+.content_left{
+	float: left;
+	width: 20%;
+}
+.content_left div{
+	margin: 1%;
+}
+select{
+	width: 80%;
+	height: 30px;
+	line-height: 30px;
+	margin: 5px 0px;
+	padding: 5px;
+}
+button{
+	height: 35px;
+	width: 37%;
+	border: 1px solid lightseagreen;
+	border-radius: 30px;
+	margin: 1%;
+}
+.content_right{
+	float: left;
+	width: 80%;
+}
+.content_right ul{
+	margin-left: 1%;
+	height: 30px;
+	font-weight: bold;
+	line-height: 30px;
+	column-count: 4;
+	width: 40%;
+}
+.content_right a{
+	color: black;
+}
+.allvideos{
+	height: 500px;
+	overflow: scroll;
+}
+h2{
+	font-size: 35px;
+}
+.videos{
+	column-count: 4;
+}
+.videos div{
+	padding: 5px;
+}
+video{
+	width: 100%;
+	height: 200px;
+}
+footer{
+	color: white;
+	font-size: 13px;
+	line-height: 20px;
+	padding: 2%;
+	background: #494949;
+}
+::-webkit-scrollbar{
+	width: 3px;
+	
+}
+
+.footer{
+	overflow-y: scroll;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+	width: 80%;
+}
+.wipper{
+	width: 70%;
+	float: left;
+}

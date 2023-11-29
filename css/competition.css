@@ -1,0 +1,126 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	font-size: 35px;
+}
+nav{
+	color: white;
+	padding: 10px;
+	height: 50px;
+	overflow: hidden;
+	background: rgb(20,30,40);
+}
+nav img{
+	float: left;
+	height: 100%;
+}
+nav ul{
+	margin-left: 20%;
+	float: left;
+	width: 40%;
+	height: 100%;
+	line-height: 50px;
+	column-count: 5;
+}
+nav span{
+	color: goldenrod;
+	line-height: 50px;
+	float: right;
+	height: 100%;
+}
+nav a{
+	color: white;
+	font-weight: bold;
+}
+.content{
+	padding: 10px;
+	overflow: hidden;
+}
+.content_left{
+	width: 20%;
+	float: left;
+}
+.content_right{
+	width: 80%;
+	float: left;
+}
+.title{
+	text-align: center;
+	overflow: hidden;
+	margin: 10px;
+	height: 50px;
+}
+.title a{
+	color: black;
+	font-size: 15px;
+}
+.title span:first-of-type{
+	border: 1px solid black;
+	width: 15%;
+	height: 48px;
+	line-height: 48px;
+	float: left;
+}
+.title span:last-of-type{
+	height: 50px;
+	line-height: 50px;
+	float: right;
+}
+.title ul{
+	height: 50px;
+	line-height: 50px;
+	margin-left: 15%;
+	float: left;
+	width: 50%;
+	column-count: 7;
+}
+.competition_time ul{
+	color: white;
+	column-count: 6;
+	margin: 10px;
+	text-align: center;
+	border-radius: 5px;
+	height: 40px;
+	line-height: 40px;
+	background: lightgray
+}
+select{
+	color: white;
+	font-weight: bold;
+	width: 80%;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	margin: 5px;
+	background: #494949;
+	border-radius: 5px;
+}
+footer{
+	color: white;
+	font-size: 13px;
+	line-height: 20px;
+	padding: 2%;
+	background: #494949;
+}
+.footer{
+	overflow: hidden;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.logo img{
+	width: 80%;
+}
+.wipper{
+	width: 70%;
+	float: left;
+}
